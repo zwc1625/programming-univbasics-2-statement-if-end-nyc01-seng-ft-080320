@@ -157,7 +157,7 @@ name = "Luca"
 puts "We're sorry, but per health inspector's rules, #{name} is not allowed in
 the store."
 
-#=> "We're sorry, but per health inspector's rules, Luca is not allowed in
+#=> We're sorry, but per health inspector's rules, Luca is not allowed in the store.
 ```
 
 We can swap the comments:
@@ -169,7 +169,7 @@ name = "Byron"
 puts "We're sorry, but per health inspector's rules, #{name} is not allowed in
 the store."
 
-#=> "We're sorry, but per health inspector's rules, Byron is not allowed in
+#=> We're sorry, but per health inspector's rules, Byron is not allowed in the store.
 ```
 
 As you go through this exercise, you can "comment-out" code you want to _keep_
