@@ -3,6 +3,11 @@
 ## Learning Goals
 
 * Write an `if...end` statement
+* Recognize the comment character
+* Comment-Out code
+* Write an `if...else...end` Statement
+* Write an `if...elsif...else...end` Statement
+* Use statement modifiers to change default sequence
 
 ## Introduction
 
@@ -63,7 +68,7 @@ We want to keep working in the `learning-if-end.rb`, file, but we want to
 "mute" this  bit of code. We can do that by taking a slight detour to discuss
 "comments."
 
-## Use Comments
+## Recognize the Comment Character
 
 A common practice is to use a "comment" to interrupt the **default sequence**.
 
@@ -73,6 +78,8 @@ or "mute" buggy or unused code from the **default sequence**.
 
 In Ruby, if we start a line with a `#`, Ruby won't "see" anything else until
 the next line.
+
+## Comment-Out Code
 
 Consider:
 
@@ -240,15 +247,13 @@ that you get different output!
 
 ## Use Statement Modifiers to Change Default Sequence
 
-## Statement Modifiers
-
 Ruby has a useful feature called a _statement modifier_ that allows you to put
 a conditional at the end of a statement. For example, let's consider this
 statement:
 
 ```ruby
 puts "Hey, it's 2019!"
-``` 
+```
 
 However, we don't want to say "Hey, it's 2019!" every time this code is run. We
 **only** want to say it's 2019 if it's actually 2019. This is a good case for
