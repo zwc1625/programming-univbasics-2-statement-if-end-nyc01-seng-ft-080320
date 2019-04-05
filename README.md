@@ -3,13 +3,21 @@
 ## Learning Goals
 
 * Write an `if...end` statement
--SWBAT 2
 
 ## Introduction
 
 We've covered the **default sequence** Ruby follows when reading and executing
 a Ruby file. Let's teach the sequence to change by using the **selection**
 statement: `if...end`.
+
+Since this is our first lesson using the Learn In-Browser IDE, we'll step
+through the process of getting a code environment together.
+
+1. Create a new file in the Learn In-Browser IDE. We can call this file
+   `learning-if-end.rb
+2. Type in (better than copy-paste!) the code samples
+3. Run the Ruby code with `ruby learning-if-end.rb`
+4. Edit the file and put in new examples as needed
 
 ## Write an `if...end` Statement
 
@@ -51,6 +59,118 @@ sequence** operates:
 5. Since it evaluates `false`, we skip to the `end` reserved word
 6. Print out with `puts "Code after if...end"`
 
+We want to keep working in the `learning-if-end.rb`, file, but we want to
+"mute" this  bit of code. We can do that by taking a slight detour to discuss
+"comments."
+
+## Use Comments
+
+A common practice is to use a "comment" to interrupt the **default sequence**.
+
+Comments are **primarily** used to provide references or explanations about
+what's going on in code. But a common use is to "comment-out" code: to "hide"
+or "mute" buggy or unused code from the **default sequence**.
+
+In Ruby, if we start a line with a `#`, Ruby won't "see" anything else until
+the next line.
+
+Consider:
+
+```ruby
+puts "Joy to the world"
+puts "All the boys and girls"
+puts "Joy to the fishes in the deep blue sea"
+puts "Joy to you and me"
+```
+
+**Default sequence** satisfies our expectations by printing out:
+
+```text
+Joy to the world
+All the boys and girls
+Joy to the fishes in the deep blue sea
+Joy to you and me
+```
+
+Now let's "comment out" the third line.
+
+```ruby
+puts "Joy to the world"
+puts "All the boys and girls"
+# puts "Joy to the fishes in the deep blue sea"
+puts "Joy to you and me"
+```
+
+If we run this code, it produces:
+
+```text
+Joy to the world
+All the boys and girls
+Joy to you and me
+```
+
+Let's use a comment in its more "standared use," for documentation purposes.
+
+```ruby
+# From the Three Dog Night song: "Joy to the World (Jeremiah was a Bullfrog)"
+puts "Joy to the world"
+puts "All the boys and girls"
+# puts "Joy to the fishes in the deep blue sea"
+puts "Joy to you and me"
+```
+Be careful! A comment placed in the middle of an expression will confuse Ruby.
+
+**Don't do this:**
+
+```ruby
+# From the Three Dog Night song: "Jeremiah the Bullfrog"
+puts ( 1 #+ 1) # <== Bad!
+puts "Joy to the world"
+puts "All the boys and girls"
+puts "Joy to the fishes in the deep blue sea"
+puts "Joy to you and me"
+```
+
+As a rule of thumb, try to comment out from the beginning of the line to the
+end. As you get more comfortable with Ruby, you might find clever ways to use
+comments, but best keep things simple now.
+
+> **A-HA! Moment**. The "return value" documentation shorthand `#=>` starts
+> with a comment character. That means what's after `#` is ignored. That's why
+> it's used as an "in-code" documentation convention.
+
+## Comment-Out Code
+
+Here's an example of us commenting out code
+
+```ruby
+# name = "Byron"
+name = "Luca"
+
+puts "We're sorry, but per health inspector's rules, #{name} is not allowed in
+the store."
+
+#=> "We're sorry, but per health inspector's rules, Luca is not allowed in
+```
+
+We can swap the comments:
+
+```ruby
+name = "Byron"
+# name = "Luca"
+
+puts "We're sorry, but per health inspector's rules, #{name} is not allowed in
+the store."
+
+#=> "We're sorry, but per health inspector's rules, Byron is not allowed in
+```
+
+As you go through this exercise, you can "comment-out" code you want to _keep_
+but _not run_.
+
+Later, we'll learn to use a tool called `git` to keep more "versions" of code
+around, but for the moment, comments will do.
+
 ## Write an `if...else...end` Statement
 
 A slightly more advanced version of `if...end` is `if...else...end`. In this
@@ -75,7 +195,7 @@ Let's go outside!
 Enjoy the fine day!
 Oh, and always wear sunscreen!
 ```
-  
+
 If we change `chance_of_rain` to `1`, we get:
 
 ```text
