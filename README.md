@@ -1,4 +1,4 @@
-# Programming as Conversation 2: Selection with if...end and Friends
+# Programming as Conversation 2: Selection with if...end and Statement Modifiers
 
 ## Learning Goals
 
