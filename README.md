@@ -140,7 +140,7 @@ However, we don't want to say "Hey, it's 2019!" every time this code is run. We
 an `if` statement modifier.
 
 ```ruby
-puts "You know what year it is????"
+puts "You know what year it is??"
 this_year = 2019
 puts "Hey, it's 2019!" if this_year == 2019
 ``` 
@@ -148,7 +148,7 @@ puts "Hey, it's 2019!" if this_year == 2019
 With output:
 
 ```text
-You know what year it is????
+You know what year it is??
 Hey, it's 2019!
 ```
 
