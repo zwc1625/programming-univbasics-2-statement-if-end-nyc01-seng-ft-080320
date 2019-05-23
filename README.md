@@ -174,6 +174,4 @@ puts "Hey, it's not 2019!" unless this_year == 2019
 > developers to try out an expression in IRB, verify it, make sure they
 > understand it, and _then_ integrate it into their code.
 
-## Conclusion
-
 [demorgan]: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
