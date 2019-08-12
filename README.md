@@ -115,15 +115,44 @@ end
 Try filling in a table by changing the value of `chance_of_rain`. You'll see
 that you get different output!
 
-|`chance_of_rain` value|Output|
-|-|-|
-|`0.0000001`|&nbsp;|
-|`0.2`|&nbsp;|
-|`0.2000001`|&nbsp;|
-|`0.3`|&nbsp;|
-|`0.9`|&nbsp;|
-|`1000`|&nbsp;|
-|`-23`|&nbsp;|
+<table>
+<thead>
+<tr>
+<th><code>chance_of_rain</code> value</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0.0000001</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>0.2</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>0.2000001</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>0.3</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>0.9</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>1000</code></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><code>-23</code></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
 
 ## Use Statement Modifiers to Change Default Sequence
 
