@@ -143,7 +143,7 @@ an `if` statement modifier.
 puts "You know what year it is??"
 this_year = 2019
 puts "Hey, it's 2019!" if this_year == 2019
-``` 
+```
 
 With output:
 
@@ -155,7 +155,7 @@ Hey, it's 2019!
 Now, with the statement modifier `if this_year == 2019` we are only putting it
 if the year is, in fact, 2019.
 
-We can also use `unless` in a statement modifier as well. 
+We can also use `unless` in a statement modifier as well.
 
 > **LOGICAL FACT**: The English Logician Augustus DeMorgan _proved_ that
 > "if-not" is equal to "unless." This had huge implications for the
@@ -165,7 +165,7 @@ We can also use `unless` in a statement modifier as well.
 ```ruby
 this_year = 2019
 puts "Hey, it's not 2019!" unless this_year == 2019
-``` 
+```
 
 > **STRETCH**: Here we've hard-coded the year in `this_year`. If you want to
 > ask **Ruby** to tell you the year, ask IRB what `Time.now.year` gives you.
@@ -175,3 +175,7 @@ puts "Hey, it's not 2019!" unless this_year == 2019
 > understand it, and _then_ integrate it into their code.
 
 [demorgan]: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
+
+
+
+
