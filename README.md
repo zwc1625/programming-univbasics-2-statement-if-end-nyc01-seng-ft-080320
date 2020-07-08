@@ -265,7 +265,7 @@ a variable.
   => 2020-02-25 09:07:47 -0500
 ```
 
-And can be it can be converted to either:
+And it can be converted to either:
 
 ```sh
 2.6.1 :003 > current_time.to_s
