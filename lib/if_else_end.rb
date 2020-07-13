@@ -1,5 +1,5 @@
 # Write your solution here
-time_in_seconds = Time.now.is_i
+time_in_seconds = Time.now.to_i
 if 
   puts "Even"
 else 
