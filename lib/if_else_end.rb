@@ -1,6 +1,6 @@
 # Write your solution here
-if 1>2 
-  puts "true"
+if 
+  puts "Even"
 else 
-  puts "false"
+  puts "Odd"
 end
